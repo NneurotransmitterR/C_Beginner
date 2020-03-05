@@ -16,7 +16,7 @@ int main(){
 	
 	if (f((head+foot)/2) < -1e-6) {             /*这里的大于/小于号取决于原始区间端点的函数值的正负。 */ 
 	    head = (head+foot)/2;                   /**/ 
-	}else if(f((head+foot)/2) > -1e-6) {
+	}else if(f((head+foot)/2) > 1e-6) {
 	    foot = (head+foot)/2;
 		}
 	
