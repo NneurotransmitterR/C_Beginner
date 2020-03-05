@@ -5,7 +5,7 @@ double f(double x);
 void zeropoint(double a, double b);
 int main()
 {
-	double a=0.0, b=1.0;
+    double a=0.0, b=1.0;
     zeropoint(a, b);
     return 0;
 }
@@ -13,7 +13,7 @@ int main()
  
 double f(double x)
 {
-	double y=x*x*x-x*x*x*x+4*x*x-1;    /*f(0)<0, f(1)>0*/ 
+    double y=x*x*x-x*x*x*x+4*x*x-1;    /*f(0)<0, f(1)>0*/ 
     return y;
 }
 void zeropoint(double a, double b)
