@@ -4,7 +4,7 @@
 
 int main() {
 	int eng=0, num=0, space=0, others=0;
-	int ch=0;
+	int ch=0;  /* char ch=0亦可。*/
 
 	do {
 		scanf("%c", &ch); //在这里不支持输入回车 
