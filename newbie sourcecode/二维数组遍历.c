@@ -4,7 +4,7 @@ int fun();
 
 int main()
 {
-	int a[3][5];   //3ÐÐ5ÁÐ 
+	int a[3][5];   //3è¡Œ5åˆ—
 	int i,j;
 	for (i=0; i<3; i++){
 		for (j=0; j<5; j++){
