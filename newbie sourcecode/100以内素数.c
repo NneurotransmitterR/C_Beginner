@@ -1,12 +1,12 @@
 #include <stdio.h>
-//±¾³ÌĞòÊµÏÖÊä³ö100ÒÔÄÚµÄËØÊı¡£ 
+//æœ¬ç¨‹åºå®ç°è¾“å‡º100ä»¥å†…çš„ç´ æ•°ã€‚ 
 int main()
 {
    int x;
    for (x=2; x<100; x++)
    {
    	    int i;
-   	    int isprime=1;   //xÊÇËØÊı
+   	    int isprime=1;   //xæ˜¯ç´ æ•°
 		for (i=2; i<x; i++){
 			if (x%i==0){
 				isprime=0;
