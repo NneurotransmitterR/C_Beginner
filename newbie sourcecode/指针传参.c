@@ -30,7 +30,7 @@ void fun(int y,int b[],int* m)
     int t,num=0;
 		for(t=1;t<100;t=t+2)
 		{
-			if (t%y==0 && t>=y) {
+			if (t%y==0 || t==1) {  //1可以整除任何正整数，这里就简单地这么写了。
 				num++;
 				b[num-1]=t;
 		    }
