@@ -14,10 +14,14 @@ int main()
  	m=&number;
 	int i,y;
 	scanf("%d", &y);        //y=5
-  fun(y, b, m);
-  for(i=0;i<*m;i++)
-	printf("%d ",b[i]);
+        
+	fun(y, b, m);
+        
+	for(i=0;i<*m;i++)
+	  printf("%d ",b[i]);
+	
 	printf("共%d个",*m);
+	
 	return 0;
 } 
 
