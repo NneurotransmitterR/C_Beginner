@@ -9,7 +9,7 @@ int main(int argc, char **argv){
 	b /= 10;
 	c++;               		//整数部分有几位 
 	}
-    if (c > 8 || b < 0){         //防止超过long int最大值时出现的问题 (?)
+    if (c > 8 || b < 0){         //防止超过long long int最大值时出现的问题 (?)
 	printf("[%.3f]\n[%.3f]\n[%.3f]\n[%.3f]\n", a, a, a, a);
     } else {
 	    printf("[%.3f]\n", a);
