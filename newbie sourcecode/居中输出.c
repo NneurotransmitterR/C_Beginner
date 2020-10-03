@@ -12,7 +12,7 @@ int main(int argc, char **argv){
 	printf("[%.3f]\n[%.3f]\n[%.3f]\n[%.3f]\n", a, a, a, a);
     } else {
 	    printf("[%.3f]\n", a);
-	    printf("[%12.3f]\n", a);       //左对齐 
+	    printf("[%-12.3f]\n", a);       //左对齐 
 	    printf("[");
     	    for (; i<(12-4-c)/2; i++)
 		printf(" ");   
@@ -20,7 +20,7 @@ int main(int argc, char **argv){
    	    for (; j<(12-4-c-i); j++)
     		printf(" ");
     	    printf("]\n");                 //居中对齐 
-	    printf("[%-12.3f]\n", a);      //右对齐 
+	    printf("[%12.3f]\n", a);      //右对齐 
     }
     return 0;
 }
